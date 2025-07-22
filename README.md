@@ -2,7 +2,19 @@
 Sql processor enhanced
 
 
+Key Features:
 
+Interactive Input: Prompts for DBNAME, SCHEMANAME, and input file
+Flexible Input: Handles both single SQL files and file lists
+SQL Processing:
+
+1. Adds DBNAME.SCHEMANAME.OBJECT_NAME where missing
+2. Adds SET SCHEMA statements before each SQL
+3. Detects and adds missing semicolons
+4. Handles case-insensitive SQL keywords
+5. Cross-Database Detection: Identifies non-prod database references in FROM/JOIN clauses
+6. Configurable: Easy to modify the non-prod database list
+7. Comprehensive Reporting: Generates both file and stdout summaries
 
 New Features Added:
 1. Preview Mode Support
