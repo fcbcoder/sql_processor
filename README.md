@@ -45,11 +45,11 @@ No file generation in preview: Prevents accidental file creation
 
 Usage Examples:
 bash# Preview mode - see what changes would be made
-./sql_processor_enhanced_v2.sh -preview=yes
+./sql_processor_enhanced_preview.sh -preview=yes
 
 # Execute mode - make actual changes (default behavior)
-./sql_processor_enhanced_v2.sh -preview=no
-./sql_processor_enhanced_v2.sh  # same as -preview=no
+./sql_processor_enhanced_preview.sh -preview=no
+./sql_processor_enhanced_preview.sh  # same as -preview=no
 
 # Show help
-./sql_processor_enhanced_v2.sh --help
+./sql_processor_enhanced_preview.sh --help
